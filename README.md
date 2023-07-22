@@ -35,6 +35,8 @@ And You can also check items that other users like.
 
 Clone the project
 
+### Web
+
 ```bash
   git clone https://github.com/giyami2/Toy_project_commerce.git
 ```
@@ -55,6 +57,24 @@ Start the server
 
 ```bash
   npm run dev or yarn dev
+```
+
+### API
+
+```bash
+  cd api-server
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm start
 ```
 
 
