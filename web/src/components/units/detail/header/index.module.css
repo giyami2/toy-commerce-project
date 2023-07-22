@@ -1,0 +1,23 @@
+.header__item,
+.header__item__title {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header__item {
+  min-width: 70px;
+}
+
+.header__item__title {
+  width: 100%;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #434343;
+  cursor: default;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
